@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Рабочие карточки студентов и готовые переводы (защита персональных данных)
+*.xls
+*.xlsx
+*_EN.docx
+Translated_Card.docx
+
+# Исключения: обезличенные демонстрационные файлы репозитория
+!sample_card.xlsx
+!template.docx
+
+# Временные lock-файлы открытых документов Word и Excel
+~$*
+
+# Локальный кэш онлайн-переводов новых курсов
+custom_courses_cache.tsv
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
